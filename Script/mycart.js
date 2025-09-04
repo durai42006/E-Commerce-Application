@@ -40,7 +40,7 @@ let cartDetails = JSON.parse(localStorage.getItem("cartDetails"));
 function displayProducts(inputArray)
 {
     let linePrice=0;
-
+    
     $("#displayContainer").empty();
 
     inputArray.forEach((item) => {
@@ -59,6 +59,7 @@ function displayProducts(inputArray)
                 <h3 class="m-2">${item.name}</h3>
                 <p class="m-2">${item.description}</p>
                 <h4 class="m-2">&#8377;${item.price}</h4>
+                <p>Quantity : ${item.userquantity}</p>
             </div>`)  
             .append(
                 $(`<button>Remove</button>`)
@@ -67,15 +68,19 @@ function displayProducts(inputArray)
 
                     cartDetails=cartDetails.filter((curritem)=> curritem.id !== item.id);
                     localStorage.setItem("cartDetails",JSON.stringify(cartDetails));
-                    localStorage.setItem("cartCount",cartDetails.length);
+                    let totalCount = cartDetails.reduce((sum, p) => sum + Number(p.userquantity), 0);
+                    localStorage.setItem("cartCount",totalCount);
 
                         checkCartCount(cartDetails.length);
-                        $("#cart-count").text(cartDetails.length);
+                        
+                        $("#cart-count").text(totalCount);
                 })
             )  
         )
     )
-    linePrice+=Number(item.price);
+    linePrice += Number(item.price) * Number(item.userquantity);
+    let totalCount = cartDetails.reduce((sum, p) => sum + Number(p.userquantity), 0);
+    $("#display-quantity").html(totalCount);
     $("#display-tprice").html(`&#8377;${linePrice}`);
     $("#display-count").text(cartDetails.length);
     $("#display-dprice").html(`&#8377;${10}`);

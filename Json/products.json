@@ -7,7 +7,8 @@
       "category": "4",
       "path": "../Products/airpods.webp",
       "quantity": "35",
-      "description": "Wireless Bluetooth earphones with rich sound and long battery life."
+      "description": "Wireless Bluetooth earphones with rich sound and long battery life.",
+      "userquantity":"1"
     },
     {
       "id": "2",
@@ -16,7 +17,8 @@
       "category": "1",
       "path": "../Products/bag-GalaxyCraft.webp",
       "quantity": "60",
-      "description": "Durable travel bag with spacious compartments for daily use."
+      "description": "Durable travel bag with spacious compartments for daily use.",
+      "userquantity":"1"
     },
     {
       "id": "3",
@@ -25,7 +27,8 @@
       "category": "1",
       "path": "../Products/bag-Skybags.webp",
       "quantity": "55",
-      "description": "Stylish backpack with padded straps and laptop sleeve."
+      "description": "Stylish backpack with padded straps and laptop sleeve.",
+      "userquantity":"1"
     },
     {
       "id": "4",
@@ -34,7 +37,8 @@
       "category": "1",
       "path": "../Products/bag-Zonal.webp",
       "quantity": "70",
-      "description": "Lightweight school/college bag with water-resistant material."
+      "description": "Lightweight school/college bag with water-resistant material.",
+      "userquantity":"1"
     },
     {
       "id": "5",
@@ -43,7 +47,8 @@
       "category": "4",
       "path": "../Products/digital-watch.webp",
       "quantity": "25",
-      "description": "LED digital wristwatch with multiple time modes and alarms."
+      "description": "LED digital wristwatch with multiple time modes and alarms.",
+      "userquantity":"1"
     },
     {
       "id": "6",
@@ -52,7 +57,8 @@
       "category": "1",
       "path": "../Products/hand-bag.webp",
       "quantity": "45",
-      "description": "Elegant leather handbag perfect for office and casual outings."
+      "description": "Elegant leather handbag perfect for office and casual outings.",
+      "userquantity":"1"
     },
     {
       "id": "7",
@@ -61,7 +67,8 @@
       "category": "4",
       "path": "../Products/hand-camera.webp",
       "quantity": "15",
-      "description": "Compact DSLR camera with HD video recording and high resolution."
+      "description": "Compact DSLR camera with HD video recording and high resolution.",
+      "userquantity":"1"
     },
     {
       "id": "8",
@@ -70,7 +77,8 @@
       "category": "1",
       "path": "../Products/laptop-bag.webp",
       "quantity": "40",
-      "description": "Professional laptop bag with shock-proof padding and storage."
+      "description": "Professional laptop bag with shock-proof padding and storage.",
+      "userquantity":"1"
     },
     {
       "id": "9",
@@ -79,7 +87,8 @@
       "category": "2",
       "path": "../Products/men-top-Deneeja.webp",
       "quantity": "80",
-      "description": "Casual men’s cotton T-shirt, soft and comfortable."
+      "description": "Casual men’s cotton T-shirt, soft and comfortable.",
+      "userquantity":"1"
     },
     {
       "id": "10",
@@ -88,7 +97,8 @@
       "category": "2",
       "path": "../Products/men-top-Jackbella.webp",
       "quantity": "75",
-      "description": "Trendy men’s T-shirt with slim fit and breathable fabric."
+      "description": "Trendy men’s T-shirt with slim fit and breathable fabric.",
+      "userquantity":"1"
     },
     {
       "id": "11",
@@ -97,7 +107,8 @@
       "category": "2",
       "path": "../Products/men-top-Webnor.webp",
       "quantity": "65",
-      "description": "Stylish men’s wear suitable for parties and casual outings."
+      "description": "Stylish men’s wear suitable for parties and casual outings.",
+      "userquantity":"1"
     },
     {
       "id": "12",
@@ -106,7 +117,8 @@
       "category": "2",
       "path": "../Products/men-track-Gajvu.webp",
       "quantity": "50",
-      "description": "Comfortable track pants ideal for jogging and workouts."
+      "description": "Comfortable track pants ideal for jogging and workouts.",
+      "userquantity":"1"
     },
     {
       "id": "13",
@@ -115,7 +127,8 @@
       "category": "2",
       "path": "../Products/men-track-Combraided.webp",
       "quantity": "60",
-      "description": "Breathable sportswear track pants for daily fitness."
+      "description": "Breathable sportswear track pants for daily fitness.",
+      "userquantity":"1"
     },
     {
       "id": "14",
@@ -124,7 +137,8 @@
       "category": "2",
       "path": "../Products/men-track-pant.webp",
       "quantity": "55",
-      "description": "Slim fit men’s track pants with adjustable waistband."
+      "description": "Slim fit men’s track pants with adjustable waistband.",
+      "userquantity":"1"
     },
     {
       "id": "15",
@@ -133,7 +147,8 @@
       "category": "2",
       "path": "../Products/men-track-Tripr.webp",
       "quantity": "70",
-      "description": "Durable polyester track pants suitable for gym and outdoor."
+      "description": "Durable polyester track pants suitable for gym and outdoor.",
+      "userquantity":"1"
     },
     {
       "id": "16",
@@ -142,7 +157,8 @@
       "category": "2",
       "path": "../Products/men-t-shirt.webp",
       "quantity": "90",
-      "description": "Classic plain cotton T-shirt for daily wear."
+      "description": "Classic plain cotton T-shirt for daily wear.",
+      "userquantity":"1"
     },
     {
       "id": "17",
@@ -151,7 +167,8 @@
       "category": "4",
       "path": "../Products/monitor.webp",
       "quantity": "20",
-      "description": "24-inch HD monitor with sharp display and fast refresh rate."
+      "description": "24-inch HD monitor with sharp display and fast refresh rate.",
+      "userquantity":"1"
     },
     {
       "id": "18",
@@ -160,7 +177,8 @@
       "category": "4",
       "path": "../Products/printer.webp",
       "quantity": "18",
-      "description": "All-in-one inkjet printer with scanning and wireless support."
+      "description": "All-in-one inkjet printer with scanning and wireless support.",
+      "userquantity":"1"
     },
     {
       "id": "19",
@@ -169,7 +187,8 @@
       "category": "3",
       "path": "../Products/face-wash.webp",
       "quantity": "85",
-      "description": "Gentle moisturizing face cream suitable for all skin types."
+      "description": "Gentle moisturizing face cream suitable for all skin types.",
+      "userquantity":"1"
     },
     {
       "id": "20",
@@ -178,7 +197,8 @@
       "category": "3",
       "path": "../Products/makeup-kit.webp",
       "quantity": "40",
-      "description": "Complete makeup kit with brushes, colors, and shades."
+      "description": "Complete makeup kit with brushes, colors, and shades.",
+      "userquantity":"1"
     },
     {
       "id": "21",
@@ -187,7 +207,8 @@
       "category": "3",
       "path": "../Products/hair-clip.webp",
       "quantity": "120",
-      "description": "Pack of trendy hair clips for daily styling needs."
+      "description": "Pack of trendy hair clips for daily styling needs",
+      "userquantity":"1"
     }
   ],
   "categories": [

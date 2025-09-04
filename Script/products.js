@@ -15,7 +15,7 @@ $(document).ready(function ()
 
 let allProducts = []; // common array
 let cartCount = $("#cart-count"); // cart count span element
-let cartArray = []; // keep added products
+let cartArray = JSON.parse(localStorage.getItem("cartDetails")); // keep added products
 
 function updateCartCount(count)
 {
@@ -75,12 +75,22 @@ function getAllProducts(inputArray, componentId) {
             .addClass("btn btn-info w-100")
             .click(()=>{
 
-                cartArray.push(item);
+                let product = cartArray.find(product=> product.id == item.id)
+
+                if(product)
+                {
+                    product.userquantity=(Number(product.userquantity)+1).toString();
+                }
+                else
+                {
+                    cartArray.push(item);
+                }
+                
                 storeCartDetails();
 
-                let value = Number(cartCount.text());
-                value++;
-                updateCartCount(value.toString());
+                let totalCount = cartArray.reduce((sum, p) => sum + Number(p.userquantity), 0);
+                updateCartCount(totalCount.toString());
+            
             })
             
         ))
