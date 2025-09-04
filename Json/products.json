@@ -1,0 +1,199 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Airpods",
+      "price": "149.00",
+      "category": "4",
+      "path": "../Products/airpods.webp",
+      "quantity": "35",
+      "description": "Wireless Bluetooth earphones with rich sound and long battery life."
+    },
+    {
+      "id": "2",
+      "name": "GalaxyCraft Bag",
+      "price": "39.00",
+      "category": "1",
+      "path": "../Products/bag-GalaxyCraft.webp",
+      "quantity": "60",
+      "description": "Durable travel bag with spacious compartments for daily use."
+    },
+    {
+      "id": "3",
+      "name": "Skybag Bag",
+      "price": "45.00",
+      "category": "1",
+      "path": "../Products/bag-Skybags.webp",
+      "quantity": "55",
+      "description": "Stylish backpack with padded straps and laptop sleeve."
+    },
+    {
+      "id": "4",
+      "name": "Zonal Bag",
+      "price": "29.00",
+      "category": "1",
+      "path": "../Products/bag-Zonal.webp",
+      "quantity": "70",
+      "description": "Lightweight school/college bag with water-resistant material."
+    },
+    {
+      "id": "5",
+      "name": "Digital Watch",
+      "price": "89.00",
+      "category": "4",
+      "path": "../Products/digital-watch.webp",
+      "quantity": "25",
+      "description": "LED digital wristwatch with multiple time modes and alarms."
+    },
+    {
+      "id": "6",
+      "name": "Handbag",
+      "price": "55.00",
+      "category": "1",
+      "path": "../Products/hand-bag.webp",
+      "quantity": "45",
+      "description": "Elegant leather handbag perfect for office and casual outings."
+    },
+    {
+      "id": "7",
+      "name": "Hand Camera",
+      "price": "349.00",
+      "category": "4",
+      "path": "../Products/hand-camera.webp",
+      "quantity": "15",
+      "description": "Compact DSLR camera with HD video recording and high resolution."
+    },
+    {
+      "id": "8",
+      "name": "Laptop Bag",
+      "price": "49.00",
+      "category": "1",
+      "path": "../Products/laptop-bag.webp",
+      "quantity": "40",
+      "description": "Professional laptop bag with shock-proof padding and storage."
+    },
+    {
+      "id": "9",
+      "name": "Men Top Deneeja",
+      "price": "25.00",
+      "category": "2",
+      "path": "../Products/men-top-Deneeja.webp",
+      "quantity": "80",
+      "description": "Casual men’s cotton T-shirt, soft and comfortable."
+    },
+    {
+      "id": "10",
+      "name": "Men Top Jackbella",
+      "price": "29.00",
+      "category": "2",
+      "path": "../Products/men-top-Jackbella.webp",
+      "quantity": "75",
+      "description": "Trendy men’s T-shirt with slim fit and breathable fabric."
+    },
+    {
+      "id": "11",
+      "name": "Men Top Webnor",
+      "price": "35.00",
+      "category": "2",
+      "path": "../Products/men-top-Webnor.webp",
+      "quantity": "65",
+      "description": "Stylish men’s wear suitable for parties and casual outings."
+    },
+    {
+      "id": "12",
+      "name": "Men Track Gajvu",
+      "price": "32.00",
+      "category": "2",
+      "path": "../Products/men-track-Gajvu.webp",
+      "quantity": "50",
+      "description": "Comfortable track pants ideal for jogging and workouts."
+    },
+    {
+      "id": "13",
+      "name": "Men Track Combraided",
+      "price": "28.00",
+      "category": "2",
+      "path": "../Products/men-track-Combraided.webp",
+      "quantity": "60",
+      "description": "Breathable sportswear track pants for daily fitness."
+    },
+    {
+      "id": "14",
+      "name": "Men Track Pant",
+      "price": "35.00",
+      "category": "2",
+      "path": "../Products/men-track-pant.webp",
+      "quantity": "55",
+      "description": "Slim fit men’s track pants with adjustable waistband."
+    },
+    {
+      "id": "15",
+      "name": "Men Track Tripr",
+      "price": "30.00",
+      "category": "2",
+      "path": "../Products/men-track-Tripr.webp",
+      "quantity": "70",
+      "description": "Durable polyester track pants suitable for gym and outdoor."
+    },
+    {
+      "id": "16",
+      "name": "Men T-Shirt",
+      "price": "22.00",
+      "category": "2",
+      "path": "../Products/men-t-shirt.webp",
+      "quantity": "90",
+      "description": "Classic plain cotton T-shirt for daily wear."
+    },
+    {
+      "id": "17",
+      "name": "Monitor",
+      "price": "179.00",
+      "category": "4",
+      "path": "../Products/monitor.webp",
+      "quantity": "20",
+      "description": "24-inch HD monitor with sharp display and fast refresh rate."
+    },
+    {
+      "id": "18",
+      "name": "Printer",
+      "price": "129.00",
+      "category": "4",
+      "path": "../Products/printer.webp",
+      "quantity": "18",
+      "description": "All-in-one inkjet printer with scanning and wireless support."
+    },
+    {
+      "id": "19",
+      "name": "Face Cream",
+      "price": "15.00",
+      "category": "3",
+      "path": "../Products/face-wash.webp",
+      "quantity": "85",
+      "description": "Gentle moisturizing face cream suitable for all skin types."
+    },
+    {
+      "id": "20",
+      "name": "Makeup Kit",
+      "price": "49.00",
+      "category": "3",
+      "path": "../Products/makeup-kit.webp",
+      "quantity": "40",
+      "description": "Complete makeup kit with brushes, colors, and shades."
+    },
+    {
+      "id": "21",
+      "name": "Hair Clip",
+      "price": "9.00",
+      "category": "3",
+      "path": "../Products/hair-clip.webp",
+      "quantity": "120",
+      "description": "Pack of trendy hair clips for daily styling needs."
+    }
+  ],
+  "categories": [
+    { "id": "1", "name": "Bags" },
+    { "id": "2", "name": "Clothes" },
+    { "id": "3", "name": "Home Care" },
+    { "id": "4", "name": "Electronics" }
+  ]
+}

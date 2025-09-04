@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+</head>
+
+<body>
+    <header>
+    <div class="navbar navbar-expand-sm" style="background-color: rgb(248, 11, 185);">
+        <div class="container">
+            <h2 class="navbar-brand">E-Commerce App</h2>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-links" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse" id="nav-links">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link text-white fw-bold">Home</a></li>
+                    <li class="nav-item"><a href="products.html" class="nav-link text-white fw-bold">Products</a></li>
+                    <li class="nav-item"><a href="my-cart.html" class="nav-link text-white fw-bold">MyCart</a></li>
+                </ul>
+            </nav>
+
+            <img class="mx-2" style="width:2rem;" src="../image-assets/Application-assets/shopping-cart.png" alt="cart-icon"><span id="cart-count">0</span></li>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <div class="container m-5">
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#tab-allproducts" id="allproducts" data-bs-toggle="tab"
+                        class="nav-link text-success fw-bold active">All products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-bags" id="bags" data-bs-toggle="tab" class="nav-link text-success fw-bold">Bags</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-clothes" id="clothes" data-bs-toggle="tab"
+                        class="nav-link text-success fw-bold">Clothes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-electronics" id="electronics" data-bs-toggle="tab"
+                        class="nav-link text-success fw-bold">Electronics</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-homecare" id="homecare" data-bs-toggle="tab"
+                        class="nav-link text-success fw-bold">Home Care</a>
+                </li>
+            </ul>
+
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade show active" id="tab-allproducts">
+                </div>
+                <div class="tab-pane fade" id="tab-bags">Bags content</div>
+                <div class="tab-pane fade" id="tab-clothes">Clothes content</div>
+                <div class="tab-pane fade" id="tab-electronics">Electronics content</div>
+                <div class="tab-pane fade" id="tab-homecare">Home care content</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5">
+        <div class="container d-flex justify-content-evenly">
+            <div>
+                <h4>Customer Service</h4>
+                <ul>
+                    <li>Help</li>
+                    <li>Privacy and Policy</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact us</h4>
+                <ul>
+                    <li>tel : +123456</li>
+                    <li>mail : e-commerce@eco.com</li>
+                    <li>address : 2/124, T-Nagar, Chennai -620007</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <div class="mb-3">
+            <h4 class="text-center">Follow us</h4>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="img-container mx-2" style="width:3rem;"><img class="w-100"
+                        src="../image-assets/Social-Media/instagram.png" alt="insta-icon"></div>
+                <div class="img-container mx-2" style="width:3rem;"><img class="w-100"
+                        src="../image-assets/Social-Media/twitter.png" alt="twitter-icon"></div>
+                <div class="img-container mx-2" style="width:3rem;"><img class="w-100"
+                        src="../image-assets/Social-Media/youtube.png" alt="youtube-icon"></div>
+            </div>
+        </div>
+
+        <div class="border-top d-flex justify-content-center align-items-center py-3">
+            <p class="mb-0">© 2025 My Website | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="../Constants/constant.js"></script>
+    <script src="../Script/products.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
