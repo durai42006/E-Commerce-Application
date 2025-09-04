@@ -37,9 +37,9 @@
     </header>
 
     <main class="d-flex">
-        <h2 class="text-center m-5" id="cart-count"></h2>
+        <h2 class="text-center m-5" id="carts"></h2>
 
-        <div class="parent-container row w-100">
+        <div class="parent-container detail row w-100">
             <div class="container" id="displayContainer">
 
             </div>
@@ -47,19 +47,49 @@
                 <button class="btn btn-success p-2 mb-2">Place order</button>
             </div>
         </div>
-        <div class="col-4 p-4" style="background-color: rgb(239, 239, 238);" id="cart-total">
-                <div class="position-sticky top-0 p-5">
-                    <h4>Total item :</h4>
-                <h4>Total price : </h4>
-                <h4>Discount price: </h4>
-                <hr>
-                <h3>Total - </h3>
-                <hr>
-                <div>
-                    <button class="btn btn-warning">Remove all</button>
+        <div class="col-4 p-4 detail" style="background-color: rgb(239, 239, 238);" id="cart-total">
+            <div class="position-sticky top-0 p-5">
+
+                <div class="cart-summary">
+                    <div class="row mb-2">
+                        <div class="col-6">
+                            <h4>Total item :</h4>
+                        </div>
+                        <div class="col-6 text-end">
+                            <span id="display-count"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-6">
+                            <h4>Total price :</h4>
+                        </div>
+                        <div class="col-6 text-end">
+                            <span id="display-tprice"></span>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-6">
+                            <h4>Discount price :</h4>
+                        </div>
+                        <div class="col-6 text-end">
+                            <span id="display-dprice"></span>
+                        </div>
+                    </div>
+                    <div class="row border-2 border-primary border-top border-bottom align-items-center">
+                        <div class="col-6">
+                            <h3>Total - </h3>
+                        </div>
+                        <div class="col-6 text-end">
+                            <span id="display-total"></span>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="my-5">
+                    <button class="btn btn-warning" id="remove-all">Remove all</button>
                 </div>
             </div>
+        </div>
     </main>
 
     <footer class="bg-dark text-white pt-5">
