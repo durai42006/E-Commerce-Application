@@ -13,13 +13,17 @@
 
 <body>
     <header>
-    <div class="navbar navbar-expand-sm" style="background-color: rgb(248, 11, 185);">
+    <div class="navbar fixed-top navbar-expand-sm" style="background-color: rgb(201, 52, 52);">
         <div class="container">
             <h2 class="navbar-brand">E-Commerce App</h2>
 
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-links" >
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <form class="form-inline w-100 d-flex justify-content-end px-5">
+                <input class="form-control mr-sm-2 w-25" type="search" placeholder="Search products">
+            </form>
 
             <nav class="navbar-collapse collapse" id="nav-links">
                 <ul class="navbar-nav ms-auto">
@@ -34,7 +38,7 @@
     </div>
 </header>
 
-    <main>
+    <main style="padding-top: 4rem;">
         <div class="container m-5">
 
             <ul class="nav nav-tabs">
