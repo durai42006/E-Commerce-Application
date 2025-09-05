@@ -15,7 +15,7 @@ $(document).ready(function ()
 
 let allProducts = []; // common array
 let cartCount = $("#cart-count"); // cart count span element
-let cartArray = JSON.parse(localStorage.getItem("cartDetails")); // keep added products
+let cartArray = JSON.parse(localStorage.getItem("cartDetails")) || []; // keep added products
 
 function updateCartCount(count)
 {
